@@ -1,36 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <script src="index.js" defer></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+
+    <link rel="shortcut icon" href="./assets/rh-plus-48.png" type="image/x-icon">
     <link rel="stylesheet" href="./style/index.css">
-    <title>Document</title>
+    <title>Doação de Sangue</title>
 </head>
+
 <body>
     <header>
-        <h1 id="">Doação de Sangue</h1>
+        <section id="header-title">
+            <img src="./assets/red-cross.png">
+            <h1>Doação de Sangue</h1>
+        </section>
+
         <nav>
-            <ul>
+            <ul id="nav-list">
                 <li><a href="#require">Requisitos</a></li>
                 <li><a href="#imp">Impedimentos</a></li>
                 <li><a href="#local">Locais</a></li>
             </ul>
         </nav>
     </header>
-    <main> 
-        <section class="require">
+    <main>
+        <section>
 
         </section>
-        <section class="imp">
 
+
+
+        <div id="title-info">
+            <h2>Informações importantes sobre a <b>DOAÇÃO DE SANGUE</b></h2>
+        </div>
+
+        <section class="info">
+            <section class="require">
+                <h2>Requisitos Básicos para DOAÇÃO</h2>
+                <ul id="req-list">
+                    <li>Estar em boas condições de saúde;</li>
+                    <li><b>Documento oficial com foto;</b></li>
+                    <li>Pesar no mínimo 50kg (quilos); </li>
+                    <li><b>Estar descansado (Ter domido pelo menos 6 horas antes de doar);</b></li>
+                    <li>Ter entre 18 e 69 anos (permitida doação a partir de 16 anos se acompanhado de responsável
+                        legal.)</li>
+                    <li><b>Estar alimentado (Evitar alimentos gordurosos 3 horas antes da doação.)</b></li>
+                    <li>Não ingerir bebida alcoólica nas últimas 12 horas;</li>
+                </ul>
+            </section>
+            <section class="imp">
+
+            </section>
         </section>
+
         <section class="local">
 
         </section>
     </main>
     <footer>
+        <section id="location">
+            <h3>Locais</h3>
+            <ul>
+                <li>
+                    <a href="">HEMOVIDA - Hospital Regina</a>
+                    <p><b>(51)2581-5241</b>- Av. Dr. Maurício Cardoso, 711 - B. Hamburgo Velho, <b>Novo Hamburgo</b></p>
+                </li>
+                <li>
+                    <a href="">Unidade de coleta de sangue do hospital Getúlio Vargas</a>
+                    <p><b>(51)3451-820</b> - Rua Pinheiro Machado, 331 - B. Diehl, <b>Sapucaia do Sul</b></p>
+                </li>
+                <li>
+                    <a href="">HEMOCENTRO Porto Alegre</a>
+                    <p><b>(51)3336-6755</b> - Av. Bento Gonçalves, 3722 - B. Partenon, <b>Porto Alegre</b></p>
+                </li>
+            </ul>
 
+        </section>
+        <section id="social-media">
+            <div>
+                <figure><img src="./assets/fb.png" alt=""></figure>
+                <figure><img src="./assets/insta.png"></figure>
+                <figure></figure>
+            </div>
+            <p><blockquote>"Para quem doa, minutos. Para quem recebe, uma vida."</blockquote></p>
+
+        </section>
     </footer>
 </body>
+
 </html>
