@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", cursive;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to top, rgb(99, 0, 0), rgb(0, 0, 0));
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  header {
+    position: fixed;
+    background: white;
+    width: 100%;
+  }
+  header #header-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  header #header-title img {
+    height: auto;
+    width: 15%;
+    margin: 1% 5%;
+  }
+  header #header-title h1 {
+    display: none;
+  }
+  header #header-title a {
+    margin: 5%;
+    color: red;
+    text-decoration: none;
+  }
+  main {
+    padding-top: 17%;
+  }
+  main .post-header {
+    margin: 0 0;
+    height: 320px;
+    width: 100%;
+    background: url(../assets/1.jfif);
+    background-size: cover;
+  }
+  main .post-header #post-header-title {
+    padding: 5%;
+  }
+  main .post-header #post-header-title h1 {
+    font-size: 32px;
+  }
+  main .post-header #post-header-title h1 span {
+    color: red;
+  }
+  main #title-info {
+    padding: 2%;
+    margin: 5% 10%;
+    border-radius: 25px;
+    background: white;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+  }
+  main #title-info b {
+    color: red;
+  }
+  main .info {
+    padding: 2%;
+    color: rgb(0, 0, 0);
+    margin: 0 2%;
+  }
+  main .info #require {
+    margin: 2% 0;
+    padding: 3%;
+    background: white;
+    border-radius: 25px;
+  }
+  main .info #require h2 {
+    font-weight: bolder;
+    font-size: 19.5px;
+    margin-bottom: 5%;
+  }
+  main .info #require:first-child {
+    margin: 0;
+  }
+  main .info li {
+    list-style: none;
+  }
+  main .local {
+    margin: 0 5%;
+  }
+  main .local div iframe {
+    width: 100%;
+  }
+  main .local div h3 {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+  }
+  footer {
+    background: white;
+  }
+  footer #social-media div {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer #social-media div figure img {
+    height: auto;
+    width: 15%;
+  }
+}/*# sourceMappingURL=mobile.css.map */
