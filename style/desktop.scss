@@ -1,41 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", cursive;
+@media screen and (min-width: 900px) and (max-width:1024px) {
+    
 }
 
-html {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
-
-body {
-  background: linear-gradient(to top, rgb(99, 0, 0), rgb(0, 0, 0));
-  background-repeat: no-repeat;
-  height: auto;
-}
-
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 900px) and (max-width: 1280px) {
   header {
     position: fixed;
     background: white;
     width: 100%;
+    height: 100px;
 
     #header-title {
       display: flex;
       justify-content: space-between;
       img {
         height: auto;
-        width: 15%;
-        margin: 1% 5%;
+        width: 7%;
+        margin: 0% 5%;
+        padding: 2% 0% 3.5% 0%;
       }
       h1 {
         display: none;
       }
 
       a {
+        font-size: 150%;
         margin: 5%;
         color: red;
         text-decoration: none;
@@ -44,11 +32,11 @@ body {
   }
 
   main {
-    padding-top: 17%;
+    padding-top: 7%;
 
     .post-header {
       margin: 0 0;
-      height: 320px;
+      height: 720px;
       width: 100%;
       background: url(../assets/1.jfif);
       background-size: cover;
@@ -56,7 +44,7 @@ body {
       #post-header-title {
         padding: 5%;
         h1 {
-          font-size: 32px;
+          font-size: 72px;
 
           span {
             color: red;
@@ -67,38 +55,41 @@ body {
 
     #title-info {
       padding: 2%;
-      margin: 5% 10%;
-    
+      margin: 3% 10%;
+
       border-radius: 25px;
       background: white;
       color: black;
-      
+
       text-align: center;
-      font-size: 14px;
+      font-size: 23px;
       b {
         color: red;
       }
     }
 
     .info {
+        display: flex;
+        justify-content: space-between;
       padding: 2%;
       color: rgb(0, 0, 0);
       margin: 0 2%;
 
       #require {
-        margin: 2% 0;
+        width: 50%;
+        margin: 2% 2%;
         padding: 3%;
         background: white;
         border-radius: 25px;
         h2 {
-          font-weight:bolder;
-          font-size: 19.5px;
+          font-weight: bolder;
+          font-size: 32px;
           margin-bottom: 5%;
         }
-      }
 
-      #require:first-child {
-        margin: 0;
+        li {
+          font-size: 24px;
+        }
       }
 
       li {
@@ -107,15 +98,23 @@ body {
     }
 
     .local {
+        display: flex;
+        justify-content: space-between;
       margin: 0 5%;
+      div {
+        width: 33%;
+      }
       div iframe {
+        border-radius: 20px;
         width: 100%;
+        height: 360px;
       }
 
       div h3 {
         text-align: center;
         color: white;
         font-weight: 300;
+        font-size: 20px;
       }
     }
   }
@@ -123,14 +122,16 @@ body {
   footer {
     background: white;
     #location {
-      margin:  2% 5% 0% 5%;
+      h2 {
+        padding: 10px;
+      }
+      margin: 2% 5% 0% 5%;
       li {
         list-style: none;
 
         a {
-        color: black;
-          
-      }
+          color: black;
+        }
       }
     }
     #social-media {
@@ -142,12 +143,5 @@ body {
         font-weight: 200;
       }
     }
-
   }
 }
-
-@media screen and (min-width: 420px) and (max-width: 720px) {
-  
-}
-
-

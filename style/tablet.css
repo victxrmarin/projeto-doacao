@@ -1,23 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", cursive;
-}
-
-html {
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-}
-
-body {
-  background: linear-gradient(to top, rgb(99, 0, 0), rgb(0, 0, 0));
-  background-repeat: no-repeat;
-  height: auto;
-}
-
-@media screen and (min-width: 300px) and (max-width: 600px) {
+@media screen and (min-width: 420px) and (max-width: 900px) {
   header {
     position: fixed;
     background: white;
@@ -31,11 +12,13 @@ body {
     height: auto;
     width: 15%;
     margin: 1% 5%;
+    padding: 2%;
   }
   header #header-title h1 {
     display: none;
   }
   header #header-title a {
+    font-size: 150%;
     margin: 5%;
     color: red;
     text-decoration: none;
@@ -45,7 +28,7 @@ body {
   }
   main .post-header {
     margin: 0 0;
-    height: 320px;
+    height: 480px;
     width: 100%;
     background: url(../assets/1.jfif);
     background-size: cover;
@@ -54,19 +37,19 @@ body {
     padding: 5%;
   }
   main .post-header #post-header-title h1 {
-    font-size: 32px;
+    font-size: 45px;
   }
   main .post-header #post-header-title h1 span {
     color: red;
   }
   main #title-info {
     padding: 2%;
-    margin: 5% 10%;
+    margin: 3% 10%;
     border-radius: 25px;
     background: white;
     color: black;
     text-align: center;
-    font-size: 14px;
+    font-size: 24px;
   }
   main #title-info b {
     color: red;
@@ -84,8 +67,11 @@ body {
   }
   main .info #require h2 {
     font-weight: bolder;
-    font-size: 19.5px;
+    font-size: 32px;
     margin-bottom: 5%;
+  }
+  main .info #require li {
+    font-size: 24px;
   }
   main .info #require:first-child {
     margin: 0;
@@ -98,17 +84,22 @@ body {
   }
   main .local div iframe {
     width: 100%;
+    height: 360px;
   }
   main .local div h3 {
     text-align: center;
     color: white;
     font-weight: 300;
+    font-size: 30px;
   }
   footer {
     background: white;
   }
   footer #location {
     margin: 2% 5% 0% 5%;
+  }
+  footer #location h2 {
+    padding: 10px;
   }
   footer #location li {
     list-style: none;
@@ -124,4 +115,4 @@ body {
     margin-top: 1%;
     font-weight: 200;
   }
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=tablet.css.map */
