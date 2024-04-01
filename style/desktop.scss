@@ -1,6 +1,3 @@
-@media screen and (min-width: 900px) and (max-width:1024px) {
-    
-}
 
 @media screen and (min-width: 900px) and (max-width: 1280px) {
   header {
@@ -33,6 +30,151 @@
 
   main {
     padding-top: 7%;
+
+    .post-header {
+      margin: 0 0;
+      height: 720px;
+      width: 100%;
+      background: url(../assets/1.jfif);
+      background-size: cover;
+
+      #post-header-title {
+        padding: 5%;
+        h1 {
+          font-size: 72px;
+
+          span {
+            color: red;
+          }
+        }
+      }
+    }
+
+    #title-info {
+      padding: 2%;
+      margin: 3% 10%;
+
+      border-radius: 25px;
+      background: white;
+      color: black;
+
+      text-align: center;
+      font-size: 23px;
+      b {
+        color: red;
+      }
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+      padding: 2%;
+      color: rgb(0, 0, 0);
+      margin: 0 2%;
+
+      #require {
+        width: 50%;
+        margin: 2% 2%;
+        padding: 3%;
+        background: white;
+        border-radius: 25px;
+        h2 {
+          font-weight: bolder;
+          font-size: 32px;
+          margin-bottom: 5%;
+        }
+
+        li {
+          font-size: 24px;
+        }
+      }
+
+      li {
+        list-style: none;
+      }
+    }
+
+    .local {
+        display: flex;
+        justify-content: space-between;
+      margin: 0 5%;
+      div {
+        width: 33%;
+      }
+      div iframe {
+        border-radius: 20px;
+        width: 100%;
+        height: 360px;
+      }
+
+      div h3 {
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        font-size: 20px;
+      }
+    }
+  }
+
+  footer {
+    background: white;
+    #location {
+      h2 {
+        padding: 10px;
+      }
+      margin: 2% 5% 0% 5%;
+      li {
+        list-style: none;
+
+        a {
+          color: black;
+        }
+      }
+    }
+    #social-media {
+      padding-top: 4%;
+      text-align: center;
+
+      p:last-child {
+        margin-top: 1%;
+        font-weight: 200;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 900px) and (max-width: 1920px) {
+  header {
+    position: fixed;
+    background: white;
+    width: 100%;
+    height: 100px;
+
+    #header-title {
+      display: flex;
+      justify-content: space-between;
+      img {
+        height: auto;
+        width: 7%;
+        margin: 0% 5%;
+        padding: 2% 0% 3.5% 0%;
+      }
+      h1 {
+        display: none;
+      }
+
+      a {
+        font-size: 150%;
+        margin: 2%;
+        color: red;
+        text-decoration: none;
+      }
+    }
+  }
+
+  main {
+    padding-top: 5%;
 
     .post-header {
       margin: 0 0;
